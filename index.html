@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Clicker de Babaras Definitivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Clicker de Babaras Definitivo 🐸</h1>
+    </header>
+
+    <main>
+        <section class="counter">
+            <p><strong>Babaras:</strong> <span id="babaras">0</span></p>
+            <p><strong>Bps:</strong> <span id="bps">0</span></p>
+            <p><strong>Clics:</strong> <span id="clics">0</span></p>
+        </section>
+
+        <section class="click-zone">
+            <img id="clicker" src="babara.png" alt="Click aquí para babaras">
+        </section>
+
+        <section class="upgrades">
+            <h2>Mejoras</h2>
+            <div id="upgradeList"></div>
+        </section>
+
+        <section class="prestige">
+            <h2>Prestigio</h2>
+            <button id="prestigeButton">Reiniciar con bonificación</button>
+        </section>
+
+        <section class="extras">
+            <h2>Logros</h2>
+            <div id="logros"></div>
+
+            <h2>Misión diaria</h2>
+            <p id="mision">Haz 100 clics hoy</p>
+            <p>Progreso: <span id="misionProgreso">0</span>/100</p>
+
+            <h2>Estadísticas</h2>
+            <p>Total de babaras conseguidas: <span id="totalBabaras">0</span></p>
+            <p>Prestigios hechos: <span id="prestigios">0</span></p>
+        </section>
+
+        <section class="espacio">
+            <h2>Modo Espacial 🚀</h2>
+            <button id="espacial" disabled>🔒 Bloqueado (próximamente)</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

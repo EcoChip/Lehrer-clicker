@@ -1,0 +1,77 @@
+/* style.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 1rem;
+  font-size: 2rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+#main {
+  padding: 2rem;
+}
+
+#babaraCount {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+#babaraBtn {
+  background: url('babara.png') no-repeat center/cover;
+  width: 150px;
+  height: 150px;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+#babaraBtn:active {
+  transform: scale(0.95);
+}
+
+#bpsDisplay, #levelDisplay {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+#upgrades {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.upgrade {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.upgrade button {
+  background: #ffd54f;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  transition: background 0.2s;
+}
+
+.upgrade button:hover {
+  background: #ffca28;
+}
